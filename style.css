@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#000;
+    color:#fff;
+}
+
+.hero{
+    height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url("images/bg.jpg");
+
+    background-size:cover;
+    background-position:center;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+}
+
+.logo{
+    width:150px;
+}
+
+nav button{
+    background:#e50914;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+.hero-content{
+    text-align:center;
+    margin-top:180px;
+}
+
+.hero-content h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero-content h3{
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    margin-bottom:20px;
+}
+
+.email-box{
+    display:flex;
+    justify-content:center;
+}
+
+.email-box input{
+    width:350px;
+    padding:15px;
+}
+
+.email-box button{
+    background:#e50914;
+    color:white;
+    border:none;
+    padding:15px 25px;
+    cursor:pointer;
+}
+
+.feature{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+    padding:80px;
+    border-top:8px solid #222;
+}
+
+.feature img{
+    width:400px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    border-top:8px solid #222;
+}
+
+.creator{
+    margin-top:10px;
+    font-size:18px;
+    color:#e50914;
+    font-weight:bold;
+}
